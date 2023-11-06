@@ -1,0 +1,378 @@
+/* home media */
+@media screen and (min-width:0px) and (max-width:768px) {
+    .nav-list{
+        opacity: 0;  
+    }
+    .navbar{
+        background-color: rgba(0, 0, 0, 0);
+            
+    }
+    .txt-home h1{
+        font-size: 34px;
+        font-weight: bolder;
+    }
+    .txt-home p{
+        font-size: 18px;
+        margin-right: 50px;
+    }
+    .txt-home h3{
+        font-size: 20px;
+    }
+    .txt-home{
+        position: absolute;
+        bottom: 41%;
+        left: 30%;      
+    } 
+
+    .home i{
+        opacity: 1;
+        
+    }
+
+
+    .fok a{
+        opacity: 0;
+    }
+    .home .hid-fok a{
+        opacity: 1;
+    }
+    
+    
+}
+
+/* hello section */
+@media screen and (min-width:0px) and (max-width:768px) {
+    .hello-profile{
+        width: 80%;
+        margin:0px auto;
+    } 
+    .hello{
+        /* background-color: red; */
+        padding-top: 0px;
+        padding-bottom: 5px;
+        
+    }
+    .img-border{
+    
+        border: 0px solid #555555;  
+        }
+        .hello .container{
+            width: 80%;
+            margin: 0px auto;
+        }
+        .hello-profile{
+            width: 75%;
+            padding:0px;
+            margin: 0px auto;
+            position: relative;
+                left: 50px;
+                /* background-color: aqua; */
+            
+            }
+            
+            .hello-info{
+                width: 80%;
+               position: relative;
+               top: 30px;
+               right: 45px;
+              
+            }
+            .left-ul{
+                width: 100%;
+                padding-top: 20px;
+                
+               
+            }
+            .right-ul{
+                width: 100%;
+                /* float: right; */
+                
+            }
+            ul{
+                
+                padding: 0px 0px;    
+            }
+            .hello button{
+               margin-bottom: 30px;
+               padding: 10px 12px;
+        
+            }
+            .hello-info h2{
+                font-size: 30px;
+            }
+}
+/* @media screen and (min-width:0px) and (max-width:768px){
+    .hello{
+        width: 100%;
+    }
+    .hello-profile{
+        width: 75%;
+    } */
+   
+
+
+/* our services section */
+
+@media screen and (min-width:0px) and (max-width:768px) {
+
+    .services .brdr-btm{
+      position: relative;  
+      left: 36%;
+    }
+    .serv{
+        width: 100%;
+    }
+    
+}
+
+/* portoflio section */
+@media screen and (min-width:0px) and (max-width:768px) {
+    .portoflio{
+       
+       padding: 0px;
+    }
+    .portoflio .container{
+        width:80%;
+        margin:auto;
+    }
+    .port-item{
+        width: 80%; 
+        /* padding-left: 10px; */
+        position: relative;
+        left: 60px;
+
+    }
+    .portoflio .brdr-btm{
+        /* height: 1px;
+        width: 150px;
+       background-color: #FF305B; */
+       position: relative;
+       left: 33%;  
+    }
+    .portoflio ul li{
+        display: inline;
+       padding-left: 25px; 
+       padding-bottom: 0px;
+       padding-top: 0px;  
+       /* background-color: red; */
+    }
+
+}
+
+/* counter section */
+@media screen and (min-width:0px) and (max-width:768px) {
+
+    .counter .container{
+        width: 100%;
+    }
+    .cnt-item{
+        width: 100%;
+       padding-bottom: 0px;
+       padding-top: 0px;
+       position: relative;
+       text-align: center;  
+       display: block;
+    }
+    .cnt-item i{
+        
+        padding-right:30px ;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .cnt-item p{
+        font-size: 15px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+    .cnt-item h2{
+       position: relative;
+       right: 6%; 
+    }
+}
+
+/* feedback section */
+@media screen and (min-width:0px) and (max-width:768px) {
+    .feedback .brdr-btm{
+        position: relative;  
+      left: 35%;
+    }
+    .card-fb{
+        width: 88%;
+        margin: 40px 25px 20px;
+        
+        
+    }
+    .feedback{
+        margin-top: 0px;
+        padding-top: 0px;
+        width: 80%;
+        position: relative;
+        left: 12%;
+       
+    }
+    .fb-img img{
+        width: 140%;
+        position: relative;
+        left: 180%;
+        
+    }
+    .fb-info{
+        width: 100%;
+    }
+    .fb-info h3{
+        margin-bottom: 0px;
+        font-size: 24px;
+        padding-left: 15px;
+    }
+    
+    .square{
+        position: relative;
+        bottom: 10px;   
+    }
+    /* .circle{
+        position: relative;
+        left: 280px;
+        bottom: 20px;
+    } */
+}
+.feedback .traingle{
+    width: 30%;
+    height: 210px;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+
+}
+
+
+/* our blog section */
+@media screen and (min-width:0px) and (max-width:768px) {
+    .blog-item{
+        width: 100%;
+    }
+    .blog .container{
+      width: 80%;
+      
+    }
+    .blog .brdr-btm{
+        position: relative;
+        left: 35%;
+    }
+    .blog iframe{
+      width: 100%;
+    }
+
+}
+
+/* contact us section */
+@media screen and (min-width:0px) and (max-width:768px) {
+    form{
+         width: 100%; 
+    }
+    .contact .container{
+        width: 90%;
+    }
+
+    .name-cont{
+        
+       display:block; 
+       width: 100%;
+        
+    }
+    
+    .email-cont{
+       display: block;
+       width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+    .contact .brdr-btm{
+        position: relative;
+        left: 40%;
+    }
+
+}
+
+/* foot section */
+@media screen and (min-width:0px) and (max-width:768px) {
+    .fa-brands{
+        position: relative;
+        left: 35%;
+    }
+}
+
+/* hello section */
+@media screen and (min-width:769px) and (max-width:1200px) {
+    .hello .container{
+        width: 100%;
+    }
+     .hello-profile{
+        width: 35%;
+     }
+     .hello-info{
+        width: 40%;
+        position: relative;
+        right: 10%;
+     }
+     .img-border{
+    
+        border: 0px solid #555555;  
+        }
+
+}
+/* services */
+@media screen and (min-width:768px) and (max-width:1200px) {
+    
+.serv{
+    width: 50%;
+}
+}
+/* portoflio */
+@media screen and (min-width:768px) and (max-width:1200px){
+   .port-item{
+    width: 50%;
+   }
+}
+
+/* feedback */
+@media screen and (min-width:768px) and (max-width:1200px){
+.feedback .card-fb{
+    width: 80%;
+}
+
+.feedback .traingle{
+    width: 22%;
+    height: 210px;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+
+}
+}
+
+/* blog */
+
+@media screen and (min-width:768px) and (max-width:1200px){
+    .blog .container{
+        width: 100%;
+    } 
+    .blog-item{
+        width: 33.3%;
+     }
+     .blog iframe{
+        width: 100%;
+      }
+      
+
+/* contact us */
+
+@media screen and (min-width:768px) and (max-width:1200px){
+
+    form{
+        width: 90%;
+    }
+
+    textarea{
+        width: 100%;
+    }
+}
+
+
+
